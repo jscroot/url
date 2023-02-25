@@ -11,7 +11,7 @@ export function setQueryString(key,value){
 }
 
 export function getHash(){
-    return window.location.hash;
+    return window.location.hash.substring(1);
 }
 
 export function setHash(hashvalue){
