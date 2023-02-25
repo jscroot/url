@@ -5,7 +5,7 @@ export function getQueryString(){
 }
 
 export function setQueryString(key,value){
-    await let params = new URLSearchParams(window.location.search);
+    let params = new URLSearchParams(window.location.search);
     params.set(key,value);
     window.location.search=params;
 }
