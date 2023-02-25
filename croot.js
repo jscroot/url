@@ -9,3 +9,11 @@ export function setQueryString(key,value){
     params.set(key,value);
     window.location.search=params;
 }
+
+export function getHash(){
+    return window.location.hash;
+}
+
+export function setHash(hashvalue){
+    window.location.hash=hashvalue;
+}
