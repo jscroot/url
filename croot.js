@@ -29,3 +29,7 @@ export function getHash(){
 export function setHash(hashvalue){
     window.location.hash=hashvalue;
 }
+
+export function redirect(URL){
+    window.location.replace(URL);
+}
