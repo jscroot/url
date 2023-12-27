@@ -33,3 +33,7 @@ export function setHash(hashvalue){
 export function redirect(URL){
     window.location.replace(URL);
 }
+
+export function onHashChange(runFunctionEvent){
+    window.addEventListener('hashchange', (event) => {runFunctionEvent(event)});
+}
