@@ -6,7 +6,7 @@ export function getHost(){
     return window.location.host;
 }
 
-export function getFullPath(){
+export function fullPath(){
     return window.location.pathname;
 }
 
