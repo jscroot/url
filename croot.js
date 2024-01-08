@@ -15,8 +15,6 @@ export function folderPath(){
     let dotArray = fpth.split(".");
     if (dotArray.length > 1){
         let extension = dotArray.pop();
-        console.log(extension);
-        console.log(dotArray);
         let slashArray = dotArray[0].split("/");
         let filename = slashArray.pop();
         fpth=fpth.replace(filename+"."+extension,"");
