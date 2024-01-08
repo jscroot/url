@@ -10,6 +10,18 @@ export function fullPath(){
     return window.location.pathname;
 }
 
+export function folderPath(){
+    let fpth=window.location.pathname;
+    let dotArray = fpth.split(".");
+    if (dotArray.length >= 1){
+        extension = dotArray.pop();
+        slashArray = dotArray[0].split("/");
+        filename = slashArray.pop();
+        fpth=fpth.replace(filename+"."+extension,"");
+    }
+    return fpth;
+}
+
 export function getPath(){
     return window.location.pathname.substring(1);
 }
