@@ -13,7 +13,7 @@ export function fullPath(){
 export function folderPath(){
     let fpth=window.location.pathname;
     let dotArray = fpth.split(".");
-    if (dotArray.length >= 1){
+    if (dotArray.length > 1){
         let extension = dotArray.pop();
         console.log(extension);
         console.log(dotArray);
