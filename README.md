@@ -1,3 +1,9 @@
+---
+redirect_to: https://croot.js.org/docs/url
+---
+
+> **JSCroot sekarang CrootJS.** Modul `url.js` sekarang ada di [croot.js.org/docs/url](https://croot.js.org/docs/url). Repo ini tidak diperbarui lagi; file lama tetap ada supaya situs yang masih memakainya tidak rusak.
+
 # url
 url engineering
 
